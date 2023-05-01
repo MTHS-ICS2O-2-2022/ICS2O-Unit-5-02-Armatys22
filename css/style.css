@@ -15,17 +15,17 @@
 }
 
 .mdl-textfield__error {
-  color: rgb(0, 0, 0);
+  color: rgb(0 0 0);
 }
 
 .page-content {
-  color: rgb(255, 255, 255);
+  color: rgb(255 255 255);
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.25rem;
 }
 
 .page-content-answer {
-  color: rgb(0, 242, 255);
+  color: rgb(0 242 255);
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.25rem;
 }
@@ -37,7 +37,7 @@
 }
 
 body {
-  background-color: rgb(60, 175, 123);
+  background-color: rgb(60 175 123);
 }
 
 img {

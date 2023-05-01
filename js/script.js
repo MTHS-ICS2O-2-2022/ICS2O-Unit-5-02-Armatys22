@@ -12,13 +12,13 @@ const randomNumberNeg = Math.floor(Math.random() * -6) + 1
  * This function displays positive and negative number
  */
 function myButtonClicked() {
-  buttonOnChecked = document.getElementById("positive-checked").checked
+  buttonOnChecked = document.getElementById("positive.").checked
 
   if (buttonOnChecked == true) {
     document.getElementById("radio-button-value").innerHTML =
-      "Your random number is: " + randomNumberPos + "."
+      "Your number is: " + randomNumberPos + "."
   } else {
     document.getElementById("radio-button-value").innerHTML =
-      "Your random number is: " + randomNumberNeg + "."
+      "Your number is: " + randomNumberNeg + "."
   }
 }
